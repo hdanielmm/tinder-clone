@@ -2,11 +2,11 @@ import React from 'react';
 import Header from './Header';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import TinderCards from './TinderCards';
+import SwipeButtons from './SwipeButtons';
 
 function App() {
   return (
     <div className="App">
-
 
       <Router>
         <Header />
@@ -19,8 +19,7 @@ function App() {
           </Route>
         </Switch>
 
-        {/* cards */}
-        {/* buttons under cards */}
+        <SwipeButtons />
 
         {/* chat screen */}
         {/* individual chat screen */}
