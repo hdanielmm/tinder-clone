@@ -18,7 +18,7 @@ const Chats = () => {
       />
       <Chat 
         name="Marilyn Manson"
-        message="Do you want to take a drink...?"
+        message="what about the song...?"
         timestamp="five minutes ago..."
         profilePic="https://cdn.i-scmp.com/sites/default/files/styles/768x768/public/d8/images/methode/2019/11/28/aa160482-1184-11ea-82cd-148dc44829b8_image_hires_144028.jpg?itok=r3rqJ44K&v=1574923235"
       />

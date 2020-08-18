@@ -11,10 +11,10 @@ const ChatScreen = () => {
   {
     name: "Garbage",
     image: "https://bloximages.chicago2.vip.townnews.com/host.madison.com/content/tncms/assets/v3/editorial/c/65/c656c6de-e913-11df-b2a3-001cc4c002e0/4fcc961a97dd8.image.jpg",
-    message: "would you like come to ours concert?"
+    message: "would you like to hear a new song...?"
   },
   {
-    message: "sure, I'd love to go"
+    message: "sure"
   }]
   
   const [input, setInput] = useState("");
