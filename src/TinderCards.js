@@ -2,13 +2,10 @@ import React, { useState, useEffect } from 'react';
 import TinderCard from 'react-tinder-card';
 import database from './firebase';
 import './TinderCards.css';
-import daniel from './assets/images/IMG_20180812_002946_835.jpg';
-import oriana from './assets/images/oriana-juanes.jpg';
 
 const TinderCards = () => {
   const [people, setPeople] = useState([]);
 
-  // Piece of code which runs based on a condition
   useEffect(() => {
     const unsubscribe = database.collection('people').onSnapshot(snapshot => (
       setPeople(snapshot.docs.map(doc => doc.data()))
